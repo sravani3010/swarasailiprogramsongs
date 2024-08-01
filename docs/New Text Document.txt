@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swarasaili Programs</title>
+    <title>Ganesh Utsav 2022</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -41,6 +41,16 @@
             background-color: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        .song-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .song-list li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #ffe0b2;
+            border-radius: 5px;
+        }
         footer {
             background-color: #ff6f00;
             color: white;
@@ -53,17 +63,37 @@
     </style>
 </head>
 <body>
-    <header>Swarasaili Programs</header>
+    <header>Ganesh Utsav 2022</header>
     <nav>
         <a href="index.html">Home</a>
-	<!--<a href="2021.html">2021</a>-->
+        <a href="2021.html">2021</a>
         <a href="2022.html">2022</a>
         <a href="2023.html">2023</a>
-        <!--<a href="2024.html">2024</a>-->
-     </nav>
+        <a href="2024.html">2024</a>
+    </nav>
     <div class="content">
-        <h2>Welcome to Swarasaili Programs</h2>
-        <p>Explore our annual programs and events related to Carnatic music.</p>
+        <h2>Ganesh Utsav 2022 Songs</h2>
+        <ul class="song-list">
+            <li>Song 1 -
+शिणले तन मन वाट पाहुनी
+येिील कधी सदनी
+मोरया िरण तुझ्या चरणी ||
+शवघ्न हाररसी सकल जगचे
+मंगल होते भक्त गणांचे
+या वचनाला जाग गणेि
+तुझ वीण नाही कोशण ||
+दास तुझा मी ित ज􀉉ीचा
+तु प्रशतपालक या श्वासांचा
+आज परंतु नाही दिशन
+आले मन भरुनी ||
+अजाण आम्ही जाणुन घे रे
+अप्रधाला पोटी घे रे
+साद ऐकुनी धावत ये रे
+Heech aas</li>
+            <li>Song 2 - Artist 2</li>
+            <li>Song 3 - Artist 3</li>
+            <!-- Add more songs as needed -->
+        </ul>
     </div>
     <footer>© 2024 Swarasaili Programs</footer>
 </body>
